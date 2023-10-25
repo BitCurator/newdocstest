@@ -7,7 +7,7 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}"><!--added by Alfred Lee-->
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -41,7 +41,7 @@
           <ul>
             {% assign items = cat.items | sort: 'name' %}
             {% for item in items %}
-              <li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.name }}</a></li>
+              <li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
         {% endfor %}
