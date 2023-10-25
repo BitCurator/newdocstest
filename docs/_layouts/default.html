@@ -31,12 +31,13 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
+				<!--Page Tree block added by Alfred Lee-->
 				<h2>Page Tree</h2>
-        {% assign bccpages = site.pages | group_by: 'dir' %}
+        {% assign bccpages = site.html_pages | group_by: 'dir' | sort: 'name' %}
         {% for cat in bccpages %}
-					<h3>{{ cat.name }}</h3>
+					<h3>{{ cat.name | strip | url_decode }}</h3>
 				  <ul>
-            {% assign items = cat.items | sort: 'order' %}
+            {% assign items = cat.items | sort: 'name' %}
             {% for item in items %}
               <li><a href="{{ item.url }}">{{ item.title }}</a></li>
             {% endfor %}
