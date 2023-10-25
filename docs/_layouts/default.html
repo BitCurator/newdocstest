@@ -7,7 +7,7 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/header.css | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/header.css" | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -33,6 +33,7 @@
         {% endif %}
 
         <!--Page Tree block added by Alfred Lee-->
+        <div class="sidebar">
         <h2>Page Tree</h2>
         {% assign bccpages = site.html_pages | group_by: 'dir' | sort: 'name' %}
         {% for cat in bccpages %}
@@ -44,6 +45,7 @@
             {% endfor %}
           </ul>
         {% endfor %}
+        </ div>
 
         {% if site.show_downloads %}
         <ul class="downloads">
