@@ -5,12 +5,12 @@
 #### **Whether you are creating forensic disk images, mounting physical media to inspect and analyze digital materials, or transferring files, BitCurator supports multiple acquisition scenarios.**
 
 BitCurator uses open source disk imaging tools, such as Guymager and
-[[dcfldd]{.underline}](https://forensicswiki.xyz/wiki/index.php?title=Dcfldd),
+[<u>dcfldd</u>](https://forensicswiki.xyz/wiki/index.php?title=Dcfldd),
 to capture bit-identical images from magnetic, optical, solid-state, and
 hybrid media. Disk images can be captured in various formats, including
 raw (just the bitstream), E01 (Expert Witness Format, which we support
 using the open source
-[[libewf]{.underline}](https://forensicswiki.xyz/wiki/index.php?title=Libewf)
+[<u>libewf</u>](https://forensicswiki.xyz/wiki/index.php?title=Libewf)
 library), and AFF (Advanced Forensic Format).
 
 Capturing disk images in forensic formats such as E01 and AFF provides
@@ -23,16 +23,16 @@ chain-of-custody**, and provide a consistent baseline for generating
 different types of access materials.
 
 In the BitCurator Environment, forensically-packaged disk images can be
-mounted by right-clicking on them and selecting \"Mount Disk Image\".
-This allows you to browse the source in a safe, read-only environment.
+mounted by right-clicking on them and selecting "Mount Disk Image". This
+allows you to browse the source in a safe, read-only environment.
 
 **Guides**
 
--   Safely Mount Devices
+- Safely Mount Devices
 
--   Imaging with Guymager
+- Imaging with Guymager
 
 **If you would like to provide feedback for this page, please follow
-this** **[[link to the BitCurator Wiki Google
-Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
+this** **[<u>link to the BitCurator Wiki Google
+Form</u>](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
 for the BitCurator All Step-by-Step Guides section.**

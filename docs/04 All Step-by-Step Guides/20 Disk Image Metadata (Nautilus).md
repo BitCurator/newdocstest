@@ -2,8 +2,8 @@
 
 ### **Overview**
 
-One of the primary benefits to using forensics disk images\--as opposed
-to a raw disk image\--is that the metadata created during the imaging
+One of the primary benefits to using forensics disk images--as opposed
+to a raw disk image--is that the metadata created during the imaging
 process is packaged with the disk image itself. That way, no matter
 where the disk image is moved, its metadata always travels with it. This
 Nautilus script allows users to quickly and easily view the forensics
@@ -17,9 +17,9 @@ Format (AFF) disk image.
 
 2.  Right click on the disk image and select Scripts \> Disk Image Info
     \> Show E01 Info (or Show AFF Info if viewing an AFF disk image; see
-    Figure 1).\
-    \
-    ![](./media/image1.png){width="6.5in" height="4.583333333333333in"}
+    Figure 1).  
+      
+    <img src="./media/image1.png" style="width:6.5in;height:4.58333in" />
 
 > **Figure 1**: Select either EO1 or AFF depending on the disk image
 > type
@@ -29,14 +29,14 @@ Format (AFF) disk image.
     case or accession number, a description of the original media, the
     name of the processor, original media size, date the disk image was
     create, any hashes created during the imaging process, and more (see
-    Figure 2).\
-    \
-    ![](./media/image2.png){width="6.5in" height="4.583333333333333in"}
+    Figure 2).  
+      
+    <img src="./media/image2.png" style="width:6.5in;height:4.58333in" />
 
 > **Figure 2**: Metadata about the original media, disk image, and
 > imaging process.
 
 **If you would like to provide feedback for this page, please follow
-this** **[[link to the BitCurator Wiki Google
-Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
+this** **[<u>link to the BitCurator Wiki Google
+Form</u>](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
 for the BitCurator All Step-by-Step Guides section.**

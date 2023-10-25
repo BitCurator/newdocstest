@@ -12,6 +12,6 @@ Package files and metadata with Bagger
 Share files to and from the BitCurator Environment
 
 **If you would like to provide feedback for this page, please follow
-this** **[[link to the BitCurator Wiki Google
-Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
+this** **[<u>link to the BitCurator Wiki Google
+Form</u>](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
 for the BitCurator All Step-by-Step Guides section.**

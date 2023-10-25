@@ -4,13 +4,13 @@
 
 The **bulk_extractor** tool includes the option to find items that match
 a particular regular expression. (There are many good introductions to
-working with regular expressions online. If you\'re not sure where to
+working with regular expressions online. If you're not sure where to
 start, try
-[[here]{.underline}](http://www.joshondesign.com/2011/04/12/joshs-quick-intro-to-regex/)).
+[<u>here</u>](http://www.joshondesign.com/2011/04/12/joshs-quick-intro-to-regex/)).
 
-![](./media/image1.png){width="6.5in" height="5.152777777777778in"}
+<img src="./media/image1.png" style="width:6.5in;height:5.15278in" />
 
-**Figure 1**: Enabling the find (by regex\'s in file) and find (by a
+**Figure 1**: Enabling the find (by regex's in file) and find (by a
 single regex string) in BEViewer.
 
 When using the **bulk_extractor** GUI, **BEViewer**, there are two
@@ -43,12 +43,12 @@ installed.
 and later. The chart in **Figure 2** provides guidance on searches with
 **lightgrep**.
 
-![](./media/image2.png){width="6.119792213473316in"
-height="8.159722222222221in"}
+<img src="./media/image2.png"
+style="width:6.11979in;height:8.15972in" />
 
 **Figure 2**: Lightgrep cheat sheet.
 
 **If you would like to provide feedback for this page, please follow
-this** **[[link to the BitCurator Wiki Google
-Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
+this** **[<u>link to the BitCurator Wiki Google
+Form</u>](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
 for the BitCurator All Step-by-Step Guides section.**

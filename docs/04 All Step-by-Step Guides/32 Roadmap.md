@@ -34,7 +34,7 @@ environment and identify whether they work on disk images and/or
 individual files.
 
 Action: **Determine functionality gaps** where tools for working with
-files don't exist, and generate a plan to locate and/or develop tools to
+files don’t exist, and generate a plan to locate and/or develop tools to
 fit those needs.
 
 ### **Support software development by individual developers from member institutions**
@@ -48,6 +48,6 @@ through promotion** on BCC communication channels and public
 programming.
 
 **If you would like to provide feedback for this page, please follow
-this** **[[link to the BitCurator Wiki Google
-Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLScRk8obKFl7tDb1NqdxlNfY9doy7r_WIkCTAiB2nE-r0D5b2Q/viewform?usp=sf_link)
+this** **[<u>link to the BitCurator Wiki Google
+Form</u>](https://docs.google.com/forms/d/e/1FAIpQLScRk8obKFl7tDb1NqdxlNfY9doy7r_WIkCTAiB2nE-r0D5b2Q/viewform?usp=sf_link)
 for the Development section.**

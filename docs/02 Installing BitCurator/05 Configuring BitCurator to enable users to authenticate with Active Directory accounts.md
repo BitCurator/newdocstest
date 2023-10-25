@@ -16,7 +16,7 @@ their centrally managed password.
 source Kerberos 5 protocol. Installation of Kerberos client software
 enables the use of Active Directory for BitCurator.
 
-![](./media/image4.png){width="6.5in" height="4.347222222222222in"}
+<img src="./media/image4.png" style="width:6.5in;height:4.34722in" />
 
 From within BitCurator open the terminal by pressing CTRL + ALT + t and
 enter the following command to install the needed software:
@@ -31,36 +31,36 @@ Enter your user password when prompted.
 When prompted, enter the URI of the Active Directory server that you
 will be connecting to. Example: AD.TEST.ORG
 
-![](./media/image5.png){width="6.5in" height="4.402777777777778in"}
+<img src="./media/image5.png" style="width:6.5in;height:4.40278in" />
 
 The Active Directory server used in your institution can be found from a
 currently logged in Windows system:
 
--   From the Windows desktop, right click on the **Computer** icon
+- From the Windows desktop, right click on the **Computer** icon
 
--   Select **Properties**
+- Select **Properties**
 
--   Look under the **Computer name, domain, and workgroup settings** for
-    an entry that look similar to:
+- Look under the **Computer name, domain, and workgroup settings** for
+  an entry that look similar to:
 
-    -   Domain: ad.yourinstitution.edu
+  - Domain: ad.yourinstitution.edu
 
 **Step 3:**
 
 After installing the Kerberos software, we will use the Users and Groups
 application add the users that will be using Active Directory for
-authentication. Press the SUPER key and start typing \"Users and
-Groups\", select the icon once it appears.
+authentication. Press the SUPER key and start typing "Users and Groups",
+select the icon once it appears.
 
-![](./media/image2.png){width="6.5in" height="3.4444444444444446in"}
+<img src="./media/image2.png" style="width:6.5in;height:3.44444in" />
 
-Click the button for \'Add\' to add a new user to the installation. When
+Click the button for 'Add' to add a new user to the installation. When
 prompted, enter the Active Directory username in both the Name and
 Username boxes (username and name must be the same). When prompted to
 set a password, click cancel. The password for the account will be
 managed by the Active Directory service.
 
-![](./media/image1.png){width="6.5in" height="4.319444444444445in"}
+<img src="./media/image1.png" style="width:6.5in;height:4.31944in" />
 
 **Step 4:**
 
@@ -68,14 +68,14 @@ The newly created user will need to be added sudo group. With the user
 highlighted in the left column, click the Manage Groups button, check
 the necessary groups, and click Ok.
 
-![](./media/image3.png){width="6.5in" height="4.319444444444445in"}
+<img src="./media/image3.png" style="width:6.5in;height:4.31944in" />
 
 **Step 5**:
 
 Install BitCurator tools for newly created user following using the
-[[bitcurator-distro-installer]{.underline}](https://github.com/bitcurator/bitcurator-distro-installer).
-If not already installed, follow the [[linked
-instructions](https://github.com/bitcurator/bitcurator-distro-installer#simple-install)]{.underline}
+[<u>bitcurator-distro-installer</u>](https://github.com/bitcurator/bitcurator-distro-installer).
+If not already installed, follow the <u>[linked
+instructions](https://github.com/bitcurator/bitcurator-distro-installer#simple-install)</u>
 for cloning the installation files.
 
 For each new user enter the following command in the Terminal:
@@ -83,6 +83,6 @@ For each new user enter the following command in the Terminal:
 sudo ./install.sh -u username
 
 **If you would like to provide feedback for this page, please follow
-this** **[[link to the BitCurator Wiki Google
-Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLSeW9_Ri9tzXzisgBzQ26o4Ea4moDYmcKZ_f1qd9s4Ju17Yf_w/viewform?usp=sf_link)
+this** **[<u>link to the BitCurator Wiki Google
+Form</u>](https://docs.google.com/forms/d/e/1FAIpQLSeW9_Ri9tzXzisgBzQ26o4Ea4moDYmcKZ_f1qd9s4Ju17Yf_w/viewform?usp=sf_link)
 for the Installing BitCurator section.**

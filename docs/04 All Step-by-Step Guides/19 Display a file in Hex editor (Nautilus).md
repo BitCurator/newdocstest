@@ -5,11 +5,11 @@
 2.  Right click the file and select Scripts \> File Analysis \> View in
     Hexeditor (see Figure 1).
 
-![](./media/image1.png){width="6.5in" height="4.847222222222222in"}
+<img src="./media/image1.png" style="width:6.5in;height:4.84722in" />
 
 **Figure** **1**: Viewing a file in hex.
 
 **If you would like to provide feedback for this page, please follow
-this** **[[link to the BitCurator Wiki Google
-Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
+this** **[<u>link to the BitCurator Wiki Google
+Form</u>](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
 for the BitCurator All Step-by-Step Guides section.**

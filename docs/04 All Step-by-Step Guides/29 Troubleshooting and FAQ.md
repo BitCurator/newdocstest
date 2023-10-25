@@ -1,54 +1,54 @@
 # **Troubleshooting and FAQ**
 
--   Troubleshooting
+- Troubleshooting
 
-    -   Where can I go to get help?
+  - Where can I go to get help?
 
-    -   I\'m having trouble reading a specific legacy floppy disk.
+  - I'm having trouble reading a specific legacy floppy disk.
 
-    -   I\'ve added the BitCurator VM using VirtualBox, but the virtual
-        machine won\'t start (or crashes when it tries to boot)
+  - I've added the BitCurator VM using VirtualBox, but the virtual
+    machine won't start (or crashes when it tries to boot)
 
-    -   I\'ve downloaded the BitCurator virtual machine. What do I do
-        with this .tar.gz file?
+  - I've downloaded the BitCurator virtual machine. What do I do with
+    this .tar.gz file?
 
-    -   I mounted a USB drive and lost control of my mouse cursor
+  - I mounted a USB drive and lost control of my mouse cursor
 
-    -   Why isn't Bulk Extractor finding SSNs that I know are there?
+  - Why isn’t Bulk Extractor finding SSNs that I know are there?
 
-    -   Using an FC5025 with the BitCurator VM
+  - Using an FC5025 with the BitCurator VM
 
--   FAQ
+- FAQ
 
-    -   Is BitCurator intended to be a data preservation environment?
+  - Is BitCurator intended to be a data preservation environment?
 
-    -   I work at a small institution with limited resources. Am I going
-        to need an expensive new dedicated workstation just to do
-        digital forensics work?
+  - I work at a small institution with limited resources. Am I going to
+    need an expensive new dedicated workstation just to do digital
+    forensics work?
 
-    -   The BitCurator virtual machine is built for VirtualBox. Can I
-        use VMWare instead?
+  - The BitCurator virtual machine is built for VirtualBox. Can I use
+    VMWare instead?
 
-    -   What\'s a hardware write-blocker? Do I really need one?
+  - What's a hardware write-blocker? Do I really need one?
 
-    -   What\'s the advantage of saving my disk images as AFF or E01
-        rather than raw?
+  - What's the advantage of saving my disk images as AFF or E01 rather
+    than raw?
 
-    -   What file systems does BitCurator support?
+  - What file systems does BitCurator support?
 
-    -   Will BitCurator help me crack passwords on encrypted files in my
-        collection?
+  - Will BitCurator help me crack passwords on encrypted files in my
+    collection?
 
 # **Troubleshooting**
 
 ## **Where can I go to get help?**
 
-The [[BitCurator Google
-Group]{.underline}](https://groups.google.com/g/bitcurator-users) is the
-place to post questions and discuss issues. There, an active BitCurator
-community of practitioners ask for and offer help.
+The [<u>BitCurator Google
+Group</u>](https://groups.google.com/g/bitcurator-users) is the place to
+post questions and discuss issues. There, an active BitCurator community
+of practitioners ask for and offer help.
 
-## **I\'m having trouble reading a specific legacy floppy disk.**
+## **I'm having trouble reading a specific legacy floppy disk.**
 
 ### **Problem**
 
@@ -60,30 +60,29 @@ collection.
 BitCurator does not provide specific solutions for working with magnetic
 media. There are a number of projects that handle floppy drive
 interfaces. In particular, these include the
-[[KryoFlux]{.underline}](https://www.kryoflux.com/) ( a low-level data
-recovery device widely-used within the archives community), the
-[[SuperCard
-Pro]{.underline}](https://www.cbmstuff.com/proddetail.php?prod=SCP)
-(similar to the KryoFlux but with more limited support), the
-[[FC5025]{.underline}](http://www.deviceside.com/fc5025.html) (a USB
-interface for 5.25\" drives) and the
-[[DiscFerret]{.underline}](https://discferret.com/wiki/DiscFerret).
-Given the appropriate floppy interface, software used by BitCurator can
-read raw data on any required media.
+[<u>KryoFlux</u>](https://www.kryoflux.com/) ( a low-level data recovery
+device widely-used within the archives community), the [<u>SuperCard
+Pro</u>](https://www.cbmstuff.com/proddetail.php?prod=SCP) (similar to
+the KryoFlux but with more limited support), the
+[<u>FC5025</u>](http://www.deviceside.com/fc5025.html) (a USB interface
+for 5.25" drives) and the
+[<u>DiscFerret</u>](https://discferret.com/wiki/DiscFerret). Given the
+appropriate floppy interface, software used by BitCurator can read raw
+data on any required media.
 
-## **I\'ve added the BitCurator VM using VirtualBox, but the virtual machine won\'t start (or crashes when it tries to boot)**
+## **I've added the BitCurator VM using VirtualBox, but the virtual machine won't start (or crashes when it tries to boot)**
 
 ### **Problem**
 
-The Virtual Machine won\'t boot, or crashes on startup.
+The Virtual Machine won't boot, or crashes on startup.
 
 ### **Solution**
 
-There are a number of reasons this could be happening. If you\'re
+There are a number of reasons this could be happening. If you're
 attempting to run BitCurator on a machine with less than 4GB of RAM, the
 default settings could be causing the host to lock up. Check the Oracle
-VM VirtualBox Manager to see if any of the tabs under \"Settings\" are
-indicating \"non-optimal settings detected\".
+VM VirtualBox Manager to see if any of the tabs under "Settings" are
+indicating "non-optimal settings detected".
 
 **Many PC laptops with Intel processors ship with hardware-assisted
 virtualization extensions disabled in the BIOS**, which may affect your
@@ -92,38 +91,37 @@ ability to run 64-bit guest OSs in VirtualBox in Windows.
 If this is the case, you will need to reboot the machine and **change
 the BIOS settings to enable Intel VT-x extensions**. The process for
 doing this varies from machine to machine. You may need to Google the
-manufacturer and model of your machine along with \"VT-x enable\" to
+manufacturer and model of your machine along with "VT-x enable" to
 determine how to do this.
 
-**If you\'re attempting to run BitCurator on a machine running a 32-bit
+**If you're attempting to run BitCurator on a machine running a 32-bit
 (uncommon) operating system, please note that we do not test or support
 this configuration.**
 
-## **I\'ve downloaded the BitCurator virtual machine. What do I do with this .tar.gz file?**
+## **I've downloaded the BitCurator virtual machine. What do I do with this .tar.gz file?**
 
 ### **Problem**
 
-I\'m not familiar with the .tar.gz format, or how to unpack it.
+I'm not familiar with the .tar.gz format, or how to unpack it.
 
 ### **Solution**
 
 On most modern Windows 10 and Mac OS operating systems, you can simply
 double-click on the file to decompress the contained folder.
 
-If you\'re using an earlier version of Windows (not recommended or
-supported), you can download 7-zip
-[[here]{.underline}](https://www.7-zip.org/) to provide support for this
-compressed format.
+If you're using an earlier version of Windows (not recommended or
+supported), you can download 7-zip [<u>here</u>](https://www.7-zip.org/)
+to provide support for this compressed format.
 
-Once you\'ve installed 7-zip, you\'ll need to right click on the .tar.gz
-file and click \"Extract here\". Once the .tar file has been extracted,
-you\'ll need to right click on that file and again click \"Extract
-here\". This will produce a folder containing the latest BitCurator
-virtual machine image.
+Once you've installed 7-zip, you'll need to right click on the .tar.gz
+file and click "Extract here". Once the .tar file has been extracted,
+you'll need to right click on that file and again click "Extract here".
+This will produce a folder containing the latest BitCurator virtual
+machine image.
 
-Once you\'ve extracted the contents, you can add the machine in
+Once you've extracted the contents, you can add the machine in
 VirtualBox by choosing Machine-\>Add in the VirtualBox menu, and
-navigating to the location where you\'ve extracted the .vdi and .vbox
+navigating to the location where you've extracted the .vdi and .vbox
 files. On a Mac, you can simply double-click the .tar.gz file, and the
 built-in extractor should take care of extracting the contents. Then you
 can add the VM in VirtualBox using the same method.
@@ -140,14 +138,14 @@ This is a known issue with VirtualBox on some Windows hosts when both a
 USB mouse and USB drive are plugged into the computer.
 
 **On some Windows systems you may need to right-click on the Oracle
-VirtualBox icon and choose \"Run as Administrator\" when starting up
+VirtualBox icon and choose "Run as Administrator" when starting up
 VirtualBox.**
 
 Alternatively, shut down BitCurator and unplug the USB drive; restart
 BitCurator. Once BitCurator has fully started up, plug the USB drive in
 again; both the drive and your mouse should now work.
 
-## **Why isn't Bulk Extractor finding SSNs that I know are there?**
+## **Why isn’t Bulk Extractor finding SSNs that I know are there?**
 
 ### **Problem**
 
@@ -163,17 +161,15 @@ social security numbers.
 
 These are:
 
--   ssn_mode=0 SSN's must be labeled "SSN:". Dashes or no dashes are
-    okay.
+- ssn_mode=0 SSN’s must be labeled “SSN:”. Dashes or no dashes are okay.
 
--   ssn_mode=1 No "SSN" required, but dashes are required.
+- ssn_mode=1 No “SSN” required, but dashes are required.
 
--   ssn_mode=2 No dashes required. Allow any 9-digit number that matches
-    SSN allocation range.
+- ssn_mode=2 No dashes required. Allow any 9-digit number that matches
+  SSN allocation range.
 
 By default, Bulk Extractor uses ssn_mode 0, meaning that only social
-security numbers prefaced with the exact string \"SSN:\" will be
-located.
+security numbers prefaced with the exact string "SSN:" will be located.
 
 When running Bulk Extractor from the command line, you can specify which
 ssn_mode to use with the -S flag. For example, to use ssn_mode pattern
@@ -191,27 +187,26 @@ BEViewer (Bulk Extractor Viewer) does not currently allow users to
 select which ssn_mode to use for pattern matching of Social Security
 numbers.
 
-However, BEViewer does allow users to specify particular [[regular
-expressions]{.underline}](https://www.regular-expressions.info/) to
-search for, the results of which are written into the \"find.txt\"
-feature file.
+However, BEViewer does allow users to specify particular [<u>regular
+expressions</u>](https://www.regular-expressions.info/) to search for,
+the results of which are written into the "find.txt" feature file.
 
-In the \"Run bulk_extractor\" menu, the user can enter a regular
-expression directly into the GUI using the \"Use Find Regex Text\"
-option or provide a regular expressions file to Bulk Extractor with the
-\"Use Find Regex Text File\" option.
+In the "Run bulk_extractor" menu, the user can enter a regular
+expression directly into the GUI using the "Use Find Regex Text" option
+or provide a regular expressions file to Bulk Extractor with the "Use
+Find Regex Text File" option.
 
-To find all valid SSNs matching the patterns #########, \### \## ####,
-or ###-##-####, you can use the following regex:
+To find all valid SSNs matching the patterns \#########, \### \## \####,
+or \###-##-####, you can use the following regex:
 
-\^((?!219-09-9999\|078-05-1120)(?!666\|000\|9\\d{2})\\d{3}-(?!00)\\d{2}-(?!0{4})\\d{4})\|((?!219
-09 9999\|078 05 1120)(?!666\|000\|9\\d{2})\\d{3} (?!00)\\d{2}
-(?!0{4})\\d{4})\|((?!219099999\|078051120)(?!666\|000\|9\\d{2})\\d{3}(?!00)\\d{2}(?!0{4})\\d{4})\$
+^((?!219-09-9999|078-05-1120)(?!666|000|9\d{2})\d{3}-(?!00)\d{2}-(?!0{4})\d{4})|((?!219
+09 9999|078 05 1120)(?!666|000|9\d{2})\d{3} (?!00)\d{2}
+(?!0{4})\d{4})|((?!219099999|078051120)(?!666|000|9\d{2})\d{3}(?!00)\d{2}(?!0{4})\d{4})$
 
 ## **Using an FC5025 with the BitCurator VM**
 
 See this post:
-[[http://www.wcsarchivesblog.org/getting-data-out-of-its-floppy-cage/]{.underline}](http://www.wcsarchivesblog.org/getting-data-out-of-its-floppy-cage/)
+[<u>http://www.wcsarchivesblog.org/getting-data-out-of-its-floppy-cage/</u>](http://www.wcsarchivesblog.org/getting-data-out-of-its-floppy-cage/)
 for additional guidance.
 
 # **FAQ**
@@ -220,7 +215,7 @@ for additional guidance.
 
 ### **Problem**
 
-I\'m trying to determine if BitCurator can be used as a discrete data
+I'm trying to determine if BitCurator can be used as a discrete data
 preservation environment.
 
 ### **Solution**
@@ -232,7 +227,7 @@ integrated as microservices into existing toolchains. BitCurator depends
 on and produces only open source and public domain software, in order
 that the technologies may be fully integrated into existing Free data
 management and preservation environments such as
-[[Archivematica]{.underline}](https://www.archivematica.org/).
+[<u>Archivematica</u>](https://www.archivematica.org/).
 
 ## **I work at a small institution with limited resources. Am I going to need an expensive new dedicated workstation just to do digital forensics work?**
 
@@ -267,14 +262,14 @@ Trying to run the virtual machine in VMWare.
 
 The BitCurator VM is shipped as a .vdi, which is VirtualBox-specific.
 You can convert a .vdi to .vmdk (the VMWare native format) by following
-the instructions on [[this
-page]{.underline}](https://scottlinux.com/2011/06/24/convert-vdi-to-vmdk-virtualbox-to-vmware/).
+the instructions on [<u>this
+page</u>](https://scottlinux.com/2011/06/24/convert-vdi-to-vmdk-virtualbox-to-vmware/).
 
 This process can be somewhat involved. A **more reliable alternative**
 is simply to create a new VMWare-specific VM and install BitCurator on
 that using the BitCurator ISO.
 
-## **What\'s a hardware write-blocker? Do I really need one?**
+## **What's a hardware write-blocker? Do I really need one?**
 
 ### **Problem**
 
@@ -287,20 +282,21 @@ A hardware write-blocker is a device that connects to your host machine
 and prevents inadvertent changes to writeable media. Changes can be
 caused by modern operating systems at the time of connection even if you
 do not issue an explicit command or action within the operating system.
-Detailed information is available at [[the forensics
-wiki]{.underline}](https://forensicswiki.xyz/wiki/index.php?title=Write_Blockers).
+Detailed information is available at [<u>the forensics
+wiki</u>](https://forensicswiki.xyz/wiki/index.php?title=Write_Blockers).
 We recommend that you use a hardware write blocker with all writable
 media, in order to prevent hidden, accidental, and malicious changes. We
 do not make specific hardware recommendations; the BitCurator project
 has successfully tested Tableau USB writeblockers, Tableau Ultrabays,
-and Digital Intelligence read-only switchable 3.5\" floppy drives with a
+and Digital Intelligence read-only switchable 3.5" floppy drives with a
 variety of media.
 
 NIST has prepared a series of technical reports on tests of software
-write blockers. The reports can be found at [[software write block tools
-page]{.underline}](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt/cftt-technical/software).
+write blockers. The reports can be found at [<u>software write block
+tools
+page</u>](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt/cftt-technical/software).
 
-## **What\'s the advantage of saving my disk images as AFF or E01 rather than raw?**
+## **What's the advantage of saving my disk images as AFF or E01 rather than raw?**
 
 ### **Problem**
 
@@ -314,9 +310,9 @@ Format** (E01) file formats supported by BitCurator store bitstreams
 compressed, and incorporate metadata about the capture process and
 device configuration. There are some known issues with AFFv3 when
 working with heavily fragmented NTFS volumes. The original developer
-recommends the use of E01, which has a [[fully
-open]{.underline}](https://sourceforge.net/projects/libewf/) library for
-read and write access.
+recommends the use of E01, which has a [<u>fully
+open</u>](https://sourceforge.net/projects/libewf/) library for read and
+write access.
 
 Forensic formats can provide an additional degree of resilience against
 bitrot in the long term, as file damage can be isolated to checksummed
@@ -349,17 +345,16 @@ cases where the underlying file formats are not recognized.
 
 ### **Problem**
 
-I\'m trying to decrypt or crack a specific item within my collection.
+I'm trying to decrypt or crack a specific item within my collection.
 
 ### **Solution**
 
 BitCurator does not currently include password or encryption cracking
-tools. There are many good
-[[commercial]{.underline}](https://accessdata.com/) and [[open
-source]{.underline}](https://ophcrack.sourceforge.io/) tools to help you
-do this, some of which can be installed in BitCurator.
+tools. There are many good [<u>commercial</u>](https://accessdata.com/)
+and [<u>open source</u>](https://ophcrack.sourceforge.io/) tools to help
+you do this, some of which can be installed in BitCurator.
 
 **If you would like to provide feedback for this page, please follow
-this** **[[link to the BitCurator Wiki Google
-Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLSfzp4g25UYdhLtk12YFB8fNQ-cVeAkoVRw0kxAwi1cO-u_Vuw/viewform?usp=sf_link)
+this** **[<u>link to the BitCurator Wiki Google
+Form</u>](https://docs.google.com/forms/d/e/1FAIpQLSfzp4g25UYdhLtk12YFB8fNQ-cVeAkoVRw0kxAwi1cO-u_Vuw/viewform?usp=sf_link)
 for the Troubleshooting and FAQ section.**

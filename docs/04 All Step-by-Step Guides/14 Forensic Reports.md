@@ -11,11 +11,11 @@ directly or crosswalked to other archival tools.
 ### **Step-by-Step Guide**
 
 1.  Open the BitCurator Reporting Tool by double clicking on the
-    \"Forensics Tools\" folder on the BitCurator desktop and then double
-    clicking on the \"BitCurator Reporting Tool\" icon.
+    "Forensics Tools" folder on the BitCurator desktop and then double
+    clicking on the "BitCurator Reporting Tool" icon.
 
 2.  Once the BitCurator Reporting Tool finishes opening, select the
-    \"Reports\" tab from the options along the top (see Figure 1).
+    "Reports" tab from the options along the top (see Figure 1).
 
 > 3\. Type or navigate to the location of the following files or
 > directories (see Figure 1):
@@ -29,33 +29,32 @@ directly or crosswalked to other archival tools.
 3.  Output Directory For Reports (new): A new directory created by the
     BitCurator Reporting Tool to contain the BitCurator forensics
     reports. *Note*: if you use the navigation button to select this
-    directory, type the name of the new directory in the \"Name:\" field
-    on the top left of the window. Do not use the \"Create Folder\"
-    button on the right to create this new directory. (see Figure 2).
+    directory, type the name of the new directory in the "Name:" field
+    on the top left of the window. Do not use the "Create Folder" button
+    on the right to create this new directory. (see Figure 2).
 
 4.  Config File (optional): For additional configuration files;
-    generally left empty.\
-    \
-    ![](./media/image2.png){width="6.5in" height="4.680555555555555in"}
+    generally left empty.  
+      
+    <img src="./media/image2.png" style="width:6.5in;height:4.68056in" />
 
-> **Figure 1**: The Reports tab in the BitCurator Reporting Tool.\
-> ![](./media/image1.png){width="6.5in" height="4.208333333333333in"}\
-> **Figure 2**: Type the name of the new directory in the \"Name\"
-> field.
+> **Figure 1**: The Reports tab in the BitCurator Reporting Tool.  
+> <img src="./media/image1.png" style="width:6.5in;height:4.20833in" />  
+> **Figure 2**: Type the name of the new directory in the "Name" field.
 >
 > 4\. Once each of the file and directory fields above are properly
-> filled out, click the \"Run\" button. The activity bar on the bottom
+> filled out, click the "Run" button. The activity bar on the bottom
 > left will indicated that the report generation process is still
 > ongoing. Once complete, a success or error message will appear in the
-> \"Command Line Output\" window (see Figure 3).
+> "Command Line Output" window (see Figure 3).
 >
-> ![](./media/image3.png){width="6.5in" height="7.138888888888889in"}
+> <img src="./media/image3.png" style="width:6.5in;height:7.13889in" />
 >
 > **Figure 3**: The BitCurator forensics reports have been successfully
 > created.
 >
 > 5\. Completion of the steps above generates the following files in the
-> directory you specified under \"Output Directory\" in Step 3:
+> directory you specified under "Output Directory" in Step 3:
 >
 > o features (directory): the annotated features
 >
@@ -78,12 +77,12 @@ directly or crosswalked to other archival tools.
 >
 > o premis.xml (file): PREMIS preservation metadata
 >
-> Open the BitCurator reports directory to examine the files. You'll
+> Open the BitCurator reports directory to examine the files. You’ll
 > find visualizations, XLSX transcriptions of file system metadata,
 > high-level reports on file types, and overviews of features identified
 > by bulk_extractor.
 
 **If you would like to provide feedback for this page, please follow
-this** **[[link to the BitCurator Wiki Google
-Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
+this** **[<u>link to the BitCurator Wiki Google
+Form</u>](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
 for the BitCurator All Step-by-Step Guides section.**

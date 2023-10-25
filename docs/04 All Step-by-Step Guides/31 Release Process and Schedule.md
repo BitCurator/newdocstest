@@ -3,20 +3,20 @@
 ## ***BitCurator Consortium Software Development Committee***
 
 *This page outlines a process by which issues identified in the public
-[[BitCurator User
-Forum]{.underline}](https://groups.google.com/forum/#!forum/bitcurator-users)
-can be raised to the attention of BitCurator Consortium members for
-possible action or resolution. A proposed software release schedule is
-also outlined.*
+[<u>BitCurator User
+Forum</u>](https://groups.google.com/forum/#!forum/bitcurator-users) can
+be raised to the attention of BitCurator Consortium members for possible
+action or resolution. A proposed software release schedule is also
+outlined.*
 
 ## **Current Identification of Software Issues and Features**
 
--   Non-member users identify issues and post them to public BitCurator
-    User Forum.
+- Non-member users identify issues and post them to public BitCurator
+  User Forum.
 
--   Member users identify issues and post in the BitCurator User Forum.
+- Member users identify issues and post in the BitCurator User Forum.
 
--   Members can also create new feature requests
+- Members can also create new feature requests
 
 ## **Proposed Software Release Process**
 
@@ -36,7 +36,7 @@ also outlined.*
 2.  MONTHLY Designated site monitor creates tickets for any User Forum
     issues that will be included for voting. The Software Development
     Committee briefly reviews and discusses these tickets during that
-    group's monthly meeting.
+    group’s monthly meeting.
 
 3.  QUARTERLY A reminder to BCC members is put out for votes on issue
     list (votes and feedback are always available to members however).
@@ -85,45 +85,79 @@ also outlined.*
 
 ## **Software Release Schedule**
 
-  -----------------------------------------------------------------------
-  Major issues and new features                      Every 12 months
-  -------------------------------------------------- --------------------
-  Maintenance (core OS, VirtualBox updates)          Every 3 months
-
-  -----------------------------------------------------------------------
+<table>
+<colgroup>
+<col style="width: 70%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Major issues and new features</th>
+<th>Every 12 months</th>
+</tr>
+<tr class="odd">
+<th>Maintenance (core OS, VirtualBox updates)</th>
+<th>Every 3 months</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
 
 ## **Roles and Responsibilities**
 
-+---------------------+------------------------------------------------+
-| Non-member Users    | -   Submit issues, bugs, feature requests to   |
-|                     |     public BitCurator Users Forum              |
-+=====================+================================================+
-| Member Users        | -   Submit issues and bugs                     |
-|                     |                                                |
-|                     | > · Create new feature requests                |
-|                     | >                                              |
-|                     | > · Vote on open issues and feature requests   |
-+---------------------+------------------------------------------------+
-| User Forum Site     | > · Review issues on public BitCurator Users   |
-| Monitor             | > Forum                                        |
-|                     | >                                              |
-|                     | > · Compiles report for SDC                    |
-+---------------------+------------------------------------------------+
-| Software            | > · Reviews report of BC user forum            |
-| Development         | >                                              |
-| Committee           | > · Decides which fixes/features will go to    |
-|                     | > Executive Council                            |
-|                     | >                                              |
-|                     | > · Documents recommendations in report for    |
-|                     | > Executive Council                            |
-|                     | >                                              |
-|                     | > · Committee Chair sends out announcements    |
-|                     | > about new software releases                  |
-+---------------------+------------------------------------------------+
-| Executive Council   | > · Confirms/counters recommendations from SDC |
-+---------------------+------------------------------------------------+
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Non-member Users</th>
+<th><ul>
+<li><p>Submit issues, bugs, feature requests to public BitCurator Users
+Forum</p></li>
+</ul></th>
+</tr>
+<tr class="odd">
+<th>Member Users</th>
+<th><ul>
+<li><p>Submit issues and bugs</p></li>
+</ul>
+<blockquote>
+<p>· Create new feature requests</p>
+<p>· Vote on open issues and feature requests</p>
+</blockquote></th>
+</tr>
+<tr class="header">
+<th>User Forum Site Monitor</th>
+<th><blockquote>
+<p>· Review issues on public BitCurator Users Forum</p>
+<p>· Compiles report for SDC</p>
+</blockquote></th>
+</tr>
+<tr class="odd">
+<th>Software Development Committee</th>
+<th><blockquote>
+<p>· Reviews report of BC user forum</p>
+<p>· Decides which fixes/features will go to Executive Council</p>
+<p>· Documents recommendations in report for Executive Council</p>
+<p>· Committee Chair sends out announcements about new software
+releases</p>
+</blockquote></th>
+</tr>
+<tr class="header">
+<th>Executive Council</th>
+<th><blockquote>
+<p>· Confirms/counters recommendations from SDC</p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
 
 **If you would like to provide feedback for this page, please follow
-this** **[[link to the BitCurator Wiki Google
-Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLScRk8obKFl7tDb1NqdxlNfY9doy7r_WIkCTAiB2nE-r0D5b2Q/viewform?usp=sf_link)
+this** **[<u>link to the BitCurator Wiki Google
+Form</u>](https://docs.google.com/forms/d/e/1FAIpQLScRk8obKFl7tDb1NqdxlNfY9doy7r_WIkCTAiB2nE-r0D5b2Q/viewform?usp=sf_link)
 for the Development section.**

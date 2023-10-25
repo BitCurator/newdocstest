@@ -7,81 +7,81 @@ Development Committee
 
 The code and development documentation for all BitCurator projects are
 maintained in Github Repositories
-([[https://github.com/bitcurator]{.underline}](https://github.com/bitcurator)),
+([<u>https://github.com/bitcurator</u>](https://github.com/bitcurator)),
 where both non-coding and development work is maintained and completed.
 
 More information on using Git and Github:
 
--   [[Git Handbook · GitHub
-    Guides]{.underline}](https://guides.github.com/introduction/git-handbook/)
+- [<u>Git Handbook · GitHub
+  Guides</u>](https://guides.github.com/introduction/git-handbook/)
 
 ## **Non-coding**
 
 There are a variety of tasks essential to the development and
-maintenance of BCC projects that don\'t require prior experience with
+maintenance of BCC projects that don't require prior experience with
 coding.
 
 **Testing software**, documenting bugs:
 
--   [[Top 7 Major Goals of A Good Software
-    Tester]{.underline}](https://www.softwaretestinghelp.com/goals-of-a-software-tester/)
+- [<u>Top 7 Major Goals of A Good Software
+  Tester</u>](https://www.softwaretestinghelp.com/goals-of-a-software-tester/)
 
--   [[How to Write A Good Bug Report? Tips and
-    Tricks]{.underline}](https://www.softwaretestinghelp.com/how-to-write-good-bug-report/)
+- [<u>How to Write A Good Bug Report? Tips and
+  Tricks</u>](https://www.softwaretestinghelp.com/how-to-write-good-bug-report/)
 
--   [[Bug report writing guidelines - Mozilla \|
-    MDN]{.underline}](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines)
+- [<u>Bug report writing guidelines - Mozilla |
+  MDN</u>](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines)
 
 Check and Confirm bugs that been submitted as issues
 
 Issue Pages for BitCurator Projects
 
--   [[https://github.com/BitCurator/bitcurator-distro/issues]{.underline}](https://github.com/BitCurator/bitcurator-distro/issues)
+- [<u>https://github.com/BitCurator/bitcurator-distro/issues</u>](https://github.com/BitCurator/bitcurator-distro/issues)
 
--   [[https://github.com/BitCurator/bitcurator-distro-installer/issues]{.underline}](https://github.com/BitCurator/bitcurator-distro-installer/issues)
+- [<u>https://github.com/BitCurator/bitcurator-distro-installer/issues</u>](https://github.com/BitCurator/bitcurator-distro-installer/issues)
 
--   [[https://github.com/BitCurator/bitcurator-distro-tools/issues]{.underline}](https://github.com/BitCurator/bitcurator-distro-tools/issues)
+- [<u>https://github.com/BitCurator/bitcurator-distro-tools/issues</u>](https://github.com/BitCurator/bitcurator-distro-tools/issues)
 
--   [[https://github.com/BitCurator/bitcurator-distro-metadata/issues]{.underline}](https://github.com/BitCurator/bitcurator-distro-metadata/issues)
+- [<u>https://github.com/BitCurator/bitcurator-distro-metadata/issues</u>](https://github.com/BitCurator/bitcurator-distro-metadata/issues)
 
--   [[https://github.com/BitCurator/bitcurator-access-webtools/issues]{.underline}](https://github.com/BitCurator/bitcurator-access-webtools/issues)
+- [<u>https://github.com/BitCurator/bitcurator-access-webtools/issues</u>](https://github.com/BitCurator/bitcurator-access-webtools/issues)
 
--   [[https://github.com/BitCurator/bitcurator-access-redaction/issues]{.underline}](https://github.com/BitCurator/bitcurator-access-redaction/issues)
+- [<u>https://github.com/BitCurator/bitcurator-access-redaction/issues</u>](https://github.com/BitCurator/bitcurator-access-redaction/issues)
 
--   [[https://github.com/BitCurator/bitcurator-redact-pdf/issues]{.underline}](https://github.com/BitCurator/bitcurator-redact-pdf/issues)
+- [<u>https://github.com/BitCurator/bitcurator-redact-pdf/issues</u>](https://github.com/BitCurator/bitcurator-redact-pdf/issues)
 
--   [[https://github.com/BitCurator/bitcurator-nlp-gentm/issues]{.underline}](https://github.com/BitCurator/bitcurator-nlp-gentm/issues)
+- [<u>https://github.com/BitCurator/bitcurator-nlp-gentm/issues</u>](https://github.com/BitCurator/bitcurator-nlp-gentm/issues)
 
--   [[https://github.com/BitCurator/bitcurator-nlp-entspan/issues]{.underline}](https://github.com/BitCurator/bitcurator-nlp-entspan/issues)
+- [<u>https://github.com/BitCurator/bitcurator-nlp-entspan/issues</u>](https://github.com/BitCurator/bitcurator-nlp-entspan/issues)
 
 **Documentation** - Take part in keeping project user and development
 documentation up-to-date.
 
--   [[https://confluence.educopia.org/display/BC/Development]{.underline}](https://confluence.educopia.org/display/BC/Development)
+- [<u>https://confluence.educopia.org/display/BC/Development</u>](https://confluence.educopia.org/display/BC/Development)
 
--   [[https://github.com/BitCurator/bitcurator-distro/wiki]{.underline}](https://github.com/BitCurator/bitcurator-distro/wiki)
+- [<u>https://github.com/BitCurator/bitcurator-distro/wiki</u>](https://github.com/BitCurator/bitcurator-distro/wiki)
 
--   [[https://github.com/BitCurator/bitcurator-access/wiki]{.underline}](https://github.com/BitCurator/bitcurator-access/wiki).
+- [<u>https://github.com/BitCurator/bitcurator-access/wiki</u>](https://github.com/BitCurator/bitcurator-access/wiki).
 
 README Pages for BitCurator Projects - install and development info
 
--   [[https://github.com/BitCurator/bitcurator-distro/blob/master/README.md]{.underline}](https://github.com/BitCurator/bitcurator-distro/blob/master/README.md)
+- [<u>https://github.com/BitCurator/bitcurator-distro/blob/master/README.md</u>](https://github.com/BitCurator/bitcurator-distro/blob/master/README.md)
 
--   [[https://github.com/BitCurator/bitcurator-distro-salt/blob/master/README.md]{.underline}](https://github.com/BitCurator/bitcurator-distro-salt/blob/master/README.md)
+- [<u>https://github.com/BitCurator/bitcurator-distro-salt/blob/master/README.md</u>](https://github.com/BitCurator/bitcurator-distro-salt/blob/master/README.md)
 
--   [[https://github.com/BitCurator/bitcurator-distro-tools/blob/master/README.md]{.underline}](https://github.com/BitCurator/bitcurator-distro-tools/blob/master/README.md)
+- [<u>https://github.com/BitCurator/bitcurator-distro-tools/blob/master/README.md</u>](https://github.com/BitCurator/bitcurator-distro-tools/blob/master/README.md)
 
--   [[https://github.com/BitCurator/bitcurator-distro-metadata/blob/master/README.md]{.underline}](https://github.com/BitCurator/bitcurator-distro-metadata/blob/master/README.md)
+- [<u>https://github.com/BitCurator/bitcurator-distro-metadata/blob/master/README.md</u>](https://github.com/BitCurator/bitcurator-distro-metadata/blob/master/README.md)
 
--   [[https://github.com/BitCurator/bitcurator-access-webtools/blob/master/README.md]{.underline}](https://github.com/BitCurator/bitcurator-access-webtools/blob/master/README.md)
+- [<u>https://github.com/BitCurator/bitcurator-access-webtools/blob/master/README.md</u>](https://github.com/BitCurator/bitcurator-access-webtools/blob/master/README.md)
 
--   [[https://github.com/BitCurator/bitcurator-access-redaction/blob/master/README.md]{.underline}](https://github.com/BitCurator/bitcurator-access-redaction/blob/master/README.md)
+- [<u>https://github.com/BitCurator/bitcurator-access-redaction/blob/master/README.md</u>](https://github.com/BitCurator/bitcurator-access-redaction/blob/master/README.md)
 
--   [[https://github.com/BitCurator/bitcurator-redact-pdf/blob/master/README.md]{.underline}](https://github.com/BitCurator/bitcurator-redact-pdf/blob/master/README.md)
+- [<u>https://github.com/BitCurator/bitcurator-redact-pdf/blob/master/README.md</u>](https://github.com/BitCurator/bitcurator-redact-pdf/blob/master/README.md)
 
--   [[https://github.com/BitCurator/bitcurator-nlp-gentm/blob/master/README.md]{.underline}](https://github.com/BitCurator/bitcurator-nlp-gentm/blob/master/README.md)
+- [<u>https://github.com/BitCurator/bitcurator-nlp-gentm/blob/master/README.md</u>](https://github.com/BitCurator/bitcurator-nlp-gentm/blob/master/README.md)
 
--   [[https://github.com/BitCurator/bitcurator-nlp-entspan/blob/master/README.md]{.underline}](https://github.com/BitCurator/bitcurator-nlp-entspan/blob/master/README.md)
+- [<u>https://github.com/BitCurator/bitcurator-nlp-entspan/blob/master/README.md</u>](https://github.com/BitCurator/bitcurator-nlp-entspan/blob/master/README.md)
 
 ## **For developers**
 
@@ -98,52 +98,50 @@ including: bitcurator-adduser and bitcurator-metadata
 
 **Current repositories:**
 
--   [[https://github.com/BitCurator/bitcurator-distro]{.underline}](https://github.com/BitCurator/bitcurator-distro)
+- [<u>https://github.com/BitCurator/bitcurator-distro</u>](https://github.com/BitCurator/bitcurator-distro)
 
--   [[https://github.com/BitCurator/bitcurator-distro-installer]{.underline}](https://github.com/BitCurator/bitcurator-distro-installer)
+- [<u>https://github.com/BitCurator/bitcurator-distro-installer</u>](https://github.com/BitCurator/bitcurator-distro-installer)
 
--   [[https://github.com/BitCurator/bitcurator-distro-salt]{.underline}](https://github.com/BitCurator/bitcurator-distro-salt)
+- [<u>https://github.com/BitCurator/bitcurator-distro-salt</u>](https://github.com/BitCurator/bitcurator-distro-salt)
 
--   [[https://github.com/BitCurator/bitcurator-distro-tools]{.underline}](https://github.com/BitCurator/bitcurator-distro-tools)
+- [<u>https://github.com/BitCurator/bitcurator-distro-tools</u>](https://github.com/BitCurator/bitcurator-distro-tools)
 
 Optional functionality and scripts:
 
--   [[https://github.com/BitCurator/bitcurator-distro-adduser]{.underline}](https://github.com/BitCurator/bitcurator-distro-adduser)
-    [[https://github.com/BitCurator/bitcurator-distro-metadata]{.underline}](https://github.com/BitCurator/bitcurator-distro-metadata)
+- [<u>https://github.com/BitCurator/bitcurator-distro-adduser</u>](https://github.com/BitCurator/bitcurator-distro-adduser)
+  [<u>https://github.com/BitCurator/bitcurator-distro-metadata</u>](https://github.com/BitCurator/bitcurator-distro-metadata)
 
 **Technology Stack:**
 
--   Ubuntu - Base operating system, user interface, tools
+- Ubuntu - Base operating system, user interface, tools
 
-    -   [[help.ubuntu.com]{.underline}](https://help.ubuntu.com/lts/ubuntu-help/index.html)
+  - [<u>help.ubuntu.com</u>](https://help.ubuntu.com/lts/ubuntu-help/index.html)
 
--   Salt Stack -
+- Salt Stack -
 
-    -   [[SaltStack
-        Documentation]{.underline}](https://docs.saltstack.com/)
+  - [<u>SaltStack Documentation</u>](https://docs.saltstack.com/)
 
--   Shell Scripting -
+- Shell Scripting -
 
-    -   [[BASH Programming - Introduction
-        HOW-TO]{.underline}](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+  - [<u>BASH Programming - Introduction
+    HOW-TO</u>](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 
-    -   [[Bash Scripting Tutorial for
-        Beginners]{.underline}](https://linuxconfig.org/bash-scripting-tutorial-for-beginners)
+  - [<u>Bash Scripting Tutorial for
+    Beginners</u>](https://linuxconfig.org/bash-scripting-tutorial-for-beginners)
 
--   Python -
+- Python -
 
-    -   [[Our Documentation -
-        python.org]{.underline}](https://www.python.org/doc/)
+  - [<u>Our Documentation - python.org</u>](https://www.python.org/doc/)
 
--   Related components -
+- Related components -
 
-    -   [[reingart/pyfpdf: Simple PDF generation for Python (FPDF PHP
-        port)]{.underline}](https://github.com/reingart/pyfpdf)
+  - [<u>reingart/pyfpdf: Simple PDF generation for Python (FPDF PHP
+    port)</u>](https://github.com/reingart/pyfpdf)
 
--   XSLT -
+- XSLT -
 
-    -   [[Introduction to
-        XSLT]{.underline}](https://www.ibm.com/developerworks/xml/tutorials/x-introxslt/x-introxslt.html)
+  - [<u>Introduction to
+    XSLT</u>](https://www.ibm.com/developerworks/xml/tutorials/x-introxslt/x-introxslt.html)
 
 ### **BitCurator Access Webtools**
 
@@ -153,25 +151,25 @@ developers to clone and build from source.
 
 **Current repository:**
 
--   [[https://github.com/BitCurator/bitcurator-access-webtools]{.underline}](https://github.com/BitCurator/bitcurator-access-webtools)
+- [<u>https://github.com/BitCurator/bitcurator-access-webtools</u>](https://github.com/BitCurator/bitcurator-access-webtools)
 
 **Technology Stack:**
 
--   The Sleuth Kit -
+- The Sleuth Kit -
 
-    -   [[http://www.sleuthkit.org/sleuthkit/]{.underline}](http://www.sleuthkit.org/sleuthkit/)
+  - [<u>http://www.sleuthkit.org/sleuthkit/</u>](http://www.sleuthkit.org/sleuthkit/)
 
--   PyTSK -
+- PyTSK -
 
-    -   [[https://github.com/py4n6/pytsk]{.underline}](https://github.com/py4n6/pytsk)
+  - [<u>https://github.com/py4n6/pytsk</u>](https://github.com/py4n6/pytsk)
 
--   Flask -
+- Flask -
 
-    -   [[https://flask.pocoo.org/]{.underline}](https://flask.pocoo.org/)
+  - [<u>https://flask.pocoo.org/</u>](https://flask.pocoo.org/)
 
--   Postgres -
+- Postgres -
 
-    -   [[https://www.postgresql.org/docs/current/]{.underline}](https://www.postgresql.org/docs/current/)
+  - [<u>https://www.postgresql.org/docs/current/</u>](https://www.postgresql.org/docs/current/)
 
 ### **BitCurator Access Redaction Tools**
 
@@ -181,19 +179,19 @@ developers to clone and build from source.
 
 **Current repositories:**
 
--   [[https://github.com/BitCurator/bitcurator-access-redaction]{.underline}](https://github.com/BitCurator/bitcurator-access-redaction)
+- [<u>https://github.com/BitCurator/bitcurator-access-redaction</u>](https://github.com/BitCurator/bitcurator-access-redaction)
 
--   [[https://github.com/bitcurator/bitcurator-redact-pdf]{.underline}](https://github.com/bitcurator/bitcurator-redact-pdf)
+- [<u>https://github.com/bitcurator/bitcurator-redact-pdf</u>](https://github.com/bitcurator/bitcurator-redact-pdf)
 
 **Technology Stack:**
 
--   The Sleuth Kit -
+- The Sleuth Kit -
 
-    -   [[http://www.sleuthkit.org/sleuthkit/]{.underline}](http://www.sleuthkit.org/sleuthkit/)
+  - [<u>http://www.sleuthkit.org/sleuthkit/</u>](http://www.sleuthkit.org/sleuthkit/)
 
--   Liblightgrep -
+- Liblightgrep -
 
-    -   [[http://strozfriedberg.github.io/liblightgrep/]{.underline}](http://strozfriedberg.github.io/liblightgrep/)
+  - [<u>http://strozfriedberg.github.io/liblightgrep/</u>](http://strozfriedberg.github.io/liblightgrep/)
 
 ### **BitCurator NLP Tools**
 
@@ -209,26 +207,26 @@ Various command-line tools are provided in another repository
 
 **Current repositories:**
 
--   [[https://github.com/BitCurator/bitcurator-nlp-gentm]{.underline}](https://github.com/BitCurator/bitcurator-nlp-gentm)
+- [<u>https://github.com/BitCurator/bitcurator-nlp-gentm</u>](https://github.com/BitCurator/bitcurator-nlp-gentm)
 
--   [[https://github.com/BitCurator/bitcurator-access-webtools]{.underline}](https://github.com/BitCurator/bitcurator-access-webtools)
+- [<u>https://github.com/BitCurator/bitcurator-access-webtools</u>](https://github.com/BitCurator/bitcurator-access-webtools)
 
--   [[https://github.com/BitCurator/bitcurator-nlp-entspan]{.underline}](https://github.com/BitCurator/bitcurator-nlp-entspan)
+- [<u>https://github.com/BitCurator/bitcurator-nlp-entspan</u>](https://github.com/BitCurator/bitcurator-nlp-entspan)
 
 **Technology Stack:**
 
--   Sleuth Ki t- to parse file systems in disk images,
+- Sleuth Ki t- to parse file systems in disk images,
 
-    -   [[https://github.com/sleuthkit/sleuthkit]{.underline}](https://github.com/sleuthkit/sleuthkit)
+  - [<u>https://github.com/sleuthkit/sleuthkit</u>](https://github.com/sleuthkit/sleuthkit)
 
--   textract- to extract text from common file formats
+- textract- to extract text from common file formats
 
-    -   [[https://textract.readthedocs.io/en/stable/]{.underline}](https://textract.readthedocs.io/en/stable/)
+  - [<u>https://textract.readthedocs.io/en/stable/</u>](https://textract.readthedocs.io/en/stable/)
 
--   gensim - to generate topic models
+- gensim - to generate topic models
 
-    -   [[https://radimrehurek.com/gensim/]{.underline}](https://radimrehurek.com/gensim/)
+  - [<u>https://radimrehurek.com/gensim/</u>](https://radimrehurek.com/gensim/)
 
--   pyLDAvis -
+- pyLDAvis -
 
-    -   [[https://github.com/bmabey/pyLDAvis]{.underline}](https://github.com/bmabey/pyLDAvis))
+  - [<u>https://github.com/bmabey/pyLDAvis</u>](https://github.com/bmabey/pyLDAvis))

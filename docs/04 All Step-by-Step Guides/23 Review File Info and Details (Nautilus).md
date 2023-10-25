@@ -13,9 +13,9 @@ Info:
 
 3.  Choose the desired report from the menu. (see Figure 1)
 
-4.  To close File Info, click the \"Cancel\" button.
+4.  To close File Info, click the "Cancel" button.
 
-![](./media/image1.png){width="6.5in" height="4.583333333333333in"}
+<img src="./media/image1.png" style="width:6.5in;height:4.58333in" />
 
 **Figure 1**: Choose the desired information from the File Info menu.
 
@@ -29,12 +29,12 @@ Figure 2).
 2.  Right click on the file and select Scripts \> File Analysis \> Show
     File Details.
 
-![](./media/image2.png){width="6.5in" height="5.013888888888889in"}
+<img src="./media/image2.png" style="width:6.5in;height:5.01389in" />
 
 **Figure 2**: Use the Show File Details script to display the file name,
 size, permissions, and more.
 
 **If you would like to provide feedback for this page, please follow
-this** **[[link to the BitCurator Wiki Google
-Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
+this** **[<u>link to the BitCurator Wiki Google
+Form</u>](https://docs.google.com/forms/d/e/1FAIpQLSelmRx1VmgDEg3dU5_8cXZy9MZ5v8_sAl-Ur2nPFLAi6Lvu2w/viewform?usp=sf_link)
 for the BitCurator All Step-by-Step Guides section.**
