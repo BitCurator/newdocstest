@@ -39,14 +39,12 @@
         {% for cat in bccpages %}
           <h3><a href="{{ cat.name | relative_url }}{{ cat.name | remove: "/" }}.html">{{ cat.name | remove: "/" | url_decode }}</a></h3>
           <ul>
-            {% assign cat_page_name = cat.name | replace: "/", ".md" %}
-						<li>{{ cat_page_name }}, {{ cat.name }}</li>
-						<li>{{ cat.name | slice: 2, 0 }}</li>
-						<li>{{ cat.name | split: "" | shift | shift | shift | join: "" }}</li>
+            {% assign cat_page_name = cat.name | replace: "/", "" | append: ".md" | split: "" | shift | shift | shift | join: "" %}
             {% assign items = cat.items | sort: 'name' %}
             {% for item in items %}
-              {% if item.name != cat_page_name %}
-                <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></br>{{ item.name }}</li>
+              {% assign item_name = item.name | split: "" | shift | shift | shift | join: "" %}
+              {% if item_name != cat_page_name %}
+                <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
               {% endif %}
             {% endfor %}
           </ul>
