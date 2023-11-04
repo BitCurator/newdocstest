@@ -37,11 +37,14 @@
         <h2>Page Tree</h2>
         {% assign bccpages = site.html_pages | group_by: 'dir' | sort: 'name' %}
         {% for cat in bccpages %}
-          <h3>{{ cat.name | remove: "/" | url_decode }}</h3>
+          <h3><a href="{{ cat.name | relative_url }}{{ cat.name | remove: "/" }}.html">{{ cat.name | remove: "/" | url_decode }}</a></h3>
           <ul>
             {% assign items = cat.items | sort: 'name' %}
             {% for item in items %}
-              <li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
+              {% assign cat_page_name = cat.name | replace: "/", ".html" %}
+              {% if item.name != cat_page_name %}
+                <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+              {% endif %}
             {% endfor %}
           </ul>
         {% endfor %}
